@@ -1049,8 +1049,7 @@ $name_exibir = $name;
 	{
 ?>
 <form method="post" action="">
-	<label>URL</label>
-   TESTE 2
+	<label>URL</label>   
 	<input type="text" name="iURL">
 	<input type="submit" name="ENVIAR">
 </form>
