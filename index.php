@@ -27,7 +27,8 @@
 
                             </div>
                             <div class="col-md-12">
-                                <input class="form-control" type="text" name="iURLS" placeholder="">
+                                <input class="form-control" type="text" name="iURLS" placeholder="" rows="12">
+
 
 
                             </div>
