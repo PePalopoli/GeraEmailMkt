@@ -26,11 +26,10 @@
                                 <input class="form-control" type="text" name="iCampanha" placeholder="Nome da Campanha">
 
                             </div>
-                            <div class="col-md-12">
-                                <input class="form-control" type="text" name="iURLS" placeholder="" rows="12">
-
-
-
+                            
+                            <div class="form-group">
+                                <label for="iURLS">URLs</label>
+                                <textarea class="form-control" id="iURLS" rows="12" name="iURLS"></textarea>
                             </div>
 
 
