@@ -28,7 +28,7 @@ if ($_POST["iURLS"]) {
         $id_produto = "";
 
         $produto = getProduto($urls_lista[$i], $preco_exibir, $name_exibir, $url_image, $id_produto);
-        die(var_dump($produto));
+        //die(var_dump($produto));
         $produtos[$i]["preco"] = str_replace("\"", "", $preco_exibir);
         $produtos[$i]["nome"] = $name_exibir;
         $produtos[$i]["image"] = $url_image;
