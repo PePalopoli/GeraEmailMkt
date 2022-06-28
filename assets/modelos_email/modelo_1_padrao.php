@@ -5,7 +5,7 @@ $exibir_form = true;
 // error_reporting(E_ALL);
 
 include_once "../functions.php";
-
+die(var_dump($_POST));
 if ($_POST["iURLS"]) {
 
     $urls_lista = explode(";", $_POST["iURLS"]);
