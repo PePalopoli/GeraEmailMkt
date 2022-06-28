@@ -20,6 +20,7 @@
                     <div class="form-holder">
                         <div class="form-content">
                             <div class="form-items">
+                                <img src="https://avatars.githubusercontent.com/u/12401162?v=4" alt="">
                                 <h3>Sistema Palópoli de Emails</h3>
                                 <p>Preencha os dados para criar o email</p>
                                 <form class="requires-validation" novalidate method="post" action="valida_modelo.php">
