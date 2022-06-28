@@ -40,8 +40,8 @@
                             </div>
 
 
-                            <div class="form-group" name="iModelo" id="iModelo">
-                                <select class="form-select">
+                            <div class="form-group">
+                                <select class="form-select" name="iModelo" id="iModelo">
                                     <option selected value="1">Modelo Padrão</option>
                                     <option value="2">Modelo Rodapé 3</option>
                                 </select>
