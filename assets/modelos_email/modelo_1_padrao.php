@@ -6,7 +6,7 @@ $exibir_form = true;
 
 include_once "../functions.php";
 if ($_POST["iURLS"]) {
-    die(var_dump("entrou"));
+    //die(var_dump("entrou"));
 
     $urls_lista = explode(";", $_POST["iURLS"]);
     // die(var_dump($urls_lista));
@@ -870,7 +870,7 @@ if ($_POST["iURLS"]) {
 <?
 }
 else{
-    die(var_dump("não entrou"));  
+    //die(var_dump("não entrou"));  
 }
 
 
