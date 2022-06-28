@@ -869,6 +869,9 @@ if ($_POST["iURLS"]) {
 
 <?
 }
+else{
+    die(var_dump("não entrou"));  
+}
 
 
 ?>
