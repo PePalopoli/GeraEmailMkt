@@ -4,7 +4,7 @@ $exibir_form = true;
 // ini_set('display_startup_errors', 1);
 // error_reporting(E_ALL);
 
-include_once "../functions.php";
+include_once "functions.php";
 if ($_POST["iURLS"]) {
     //die(var_dump("entrou"));
 
