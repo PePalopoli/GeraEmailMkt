@@ -305,7 +305,7 @@ if ($_POST["iURLS"]) {
                                 <table id="brand" width="100%" border="0" cellpadding="0" cellspacing="0">
                                     <tr>
                                         <td align="center" valign="middle" width="22%" height="110" style="border-collapse: collapse">
-                                            <a href="https://www.lojastorra.com.br?utm_source=salesforce&utm_medium=email&utm_campaign=SUA_CAMPANHA_AQUI&utm_content=logo_topo" target="_blank" style="font-family: 'Open Sans', Arial, Helvetica, sans-serif;font-size: 11px;color: #666"><img src="https://torratorra.vteximg.com.br/arquivos/ids/600349" alt="TORRA" border="0" style="display: block" class="light-img" /></a>
+                                            <a href="https://www.lojastorra.com.br?utm_source=salesforce&utm_medium=email&utm_campaign=<?php echo $_POST["iCampanha"]; ?>&utm_content=logo_topo" target="_blank" style="font-family: 'Open Sans', Arial, Helvetica, sans-serif;font-size: 11px;color: #666"><img src="https://torratorra.vteximg.com.br/arquivos/ids/600349" alt="TORRA" border="0" style="display: block" class="light-img" /></a>
                                         </td>
                                     </tr>
                                 </table>
@@ -331,25 +331,25 @@ if ($_POST["iURLS"]) {
                                 <table id="menu-two" width="100%" border="0" cellpadding="0" cellspacing="0">
                                     <tr>
                                         <td width="10%" align="center" style="border-collapse: collapse">
-                                            <a href="https://www.lojastorra.com.br/feminino?O=OrderByReleaseDateDESC&utm_source=salesforce&utm_medium=email&utm_campaign=SUA_CAMPANHA_AQUI&utm_content=menu_feminino" target="_blank" style="font-family: 'Open Sans', Arial, Helvetica, sans-serif;font-size: 12px;color: #666;text-decoration: none;">FEMININO</a>
+                                            <a href="https://www.lojastorra.com.br/feminino?O=OrderByReleaseDateDESC&utm_source=salesforce&utm_medium=email&utm_campaign=<?php echo $_POST["iCampanha"]; ?>&utm_content=menu_feminino" target="_blank" style="font-family: 'Open Sans', Arial, Helvetica, sans-serif;font-size: 12px;color: #666;text-decoration: none;">FEMININO</a>
                                         </td>
                                         <td width="10%" align="center" style="border-collapse: collapse">
-                                            <a href="https://www.lojastorra.com.br/lingerie?O=OrderByReleaseDateDESC&utm_source=salesforce&utm_medium=email&utm_campaign=SUA_CAMPANHA_AQUI&utm_content=menu_lingerie" target="_blank" style="font-family: 'Open Sans', Arial, Helvetica, sans-serif;font-size: 12px;color: #666;text-decoration: none">LINGERIE</a>
+                                            <a href="https://www.lojastorra.com.br/lingerie?O=OrderByReleaseDateDESC&utm_source=salesforce&utm_medium=email&utm_campaign=<?php echo $_POST["iCampanha"]; ?>&utm_content=menu_lingerie" target="_blank" style="font-family: 'Open Sans', Arial, Helvetica, sans-serif;font-size: 12px;color: #666;text-decoration: none">LINGERIE</a>
                                         </td>
                                         <td width="10%" align="center" style="border-collapse: collapse">
-                                            <a href="https://www.lojastorra.com.br/masculino?O=OrderByReleaseDateDESC&utm_source=salesforce&utm_medium=email&utm_campaign=SUA_CAMPANHA_AQUI&utm_content=menu_masculino" target="_blank" style="font-family: 'Open Sans', Arial, Helvetica, sans-serif;font-size: 12px;color: #666;text-decoration: none">MASCULINO</a>
+                                            <a href="https://www.lojastorra.com.br/masculino?O=OrderByReleaseDateDESC&utm_source=salesforce&utm_medium=email&utm_campaign=<?php echo $_POST["iCampanha"]; ?>&utm_content=menu_masculino" target="_blank" style="font-family: 'Open Sans', Arial, Helvetica, sans-serif;font-size: 12px;color: #666;text-decoration: none">MASCULINO</a>
                                         </td>
                                         <td width="10%" align="center" style="border-collapse: collapse">
-                                            <a href="https://www.lojastorra.com.br/infantil?O=OrderByReleaseDateDESC&utm_source=salesforce&utm_medium=email&utm_campaign=SUA_CAMPANHA_AQUI&utm_content=menu_infantil" target="_blank" style="font-family: 'Open Sans', Arial, Helvetica, sans-serif;font-size: 12px;color: #666;text-decoration: none">INFANTIL</a>
+                                            <a href="https://www.lojastorra.com.br/infantil?O=OrderByReleaseDateDESC&utm_source=salesforce&utm_medium=email&utm_campaign=<?php echo $_POST["iCampanha"]; ?>&utm_content=menu_infantil" target="_blank" style="font-family: 'Open Sans', Arial, Helvetica, sans-serif;font-size: 12px;color: #666;text-decoration: none">INFANTIL</a>
                                         </td>
                                         <td width="10%" align="center" style="border-collapse: collapse">
-                                            <a href="https://www.lojastorra.com.br/calcados?O=OrderByReleaseDateDESC&utm_source=salesforce&utm_medium=email&utm_campaign=SUA_CAMPANHA_AQUI&utm_content=menu_calcados" target="_blank" style="font-family: 'Open Sans', Arial, Helvetica, sans-serif;font-size: 12px;color: #666;text-decoration: none">CALÇADOS</a>
+                                            <a href="https://www.lojastorra.com.br/calcados?O=OrderByReleaseDateDESC&utm_source=salesforce&utm_medium=email&utm_campaign=<?php echo $_POST["iCampanha"]; ?>&utm_content=menu_calcados" target="_blank" style="font-family: 'Open Sans', Arial, Helvetica, sans-serif;font-size: 12px;color: #666;text-decoration: none">CALÇADOS</a>
                                         </td>
                                         <td width="10%" align="center" style="border-collapse: collapse">
-                                            <a href="https://www.lojastorra.com.br/acessorios?O=OrderByReleaseDateDESC&utm_source=salesforce&utm_medium=email&utm_campaign=SUA_CAMPANHA_AQUI&utm_content=menu_acessorios" target="_blank" style="font-family: 'Open Sans', Arial, Helvetica, sans-serif;font-size: 12px;color: #666;text-decoration: none">ACESSÓRIOS</a>
+                                            <a href="https://www.lojastorra.com.br/acessorios?O=OrderByReleaseDateDESC&utm_source=salesforce&utm_medium=email&utm_campaign=<?php echo $_POST["iCampanha"]; ?>&utm_content=menu_acessorios" target="_blank" style="font-family: 'Open Sans', Arial, Helvetica, sans-serif;font-size: 12px;color: #666;text-decoration: none">ACESSÓRIOS</a>
                                         </td>
                                         <td width="10%" id="hide" align="center" style="border-collapse: collapse">
-                                            <a href="https://www.lojastorra.com.br/casa?O=OrderByReleaseDateDESC&utm_source=salesforce&utm_medium=email&utm_campaign=SUA_CAMPANHA_AQUI&utm_content=menu_casa" target="_blank" style="font-family: 'Open Sans', Arial, Helvetica, sans-serif;font-size: 12px;color: #666;text-decoration: none">CASA</a>
+                                            <a href="https://www.lojastorra.com.br/casa?O=OrderByReleaseDateDESC&utm_source=salesforce&utm_medium=email&utm_campaign=<?php echo $_POST["iCampanha"]; ?>&utm_content=menu_casa" target="_blank" style="font-family: 'Open Sans', Arial, Helvetica, sans-serif;font-size: 12px;color: #666;text-decoration: none">CASA</a>
                                         </td>
                                     </tr>
                                 </table>
@@ -368,8 +368,8 @@ if ($_POST["iURLS"]) {
                                 <table cellpadding="0" cellspacing="0" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
                                     <tr>
                                         <td style="border-collapse: collapse;">
-                                            <a href="https://www.lojastorra.com.br/busca?fq=H:1107&O=OrderByReleaseDateDESC&utm_source=salesforce&utm_medium=email&utm_campaign=SUA_CAMPANHA_AQUI&utm_content=banner_principal" target="_blank">
-                                                <img src="https://image.news.lojastorra.com.br/lib/fe43157175640478751772/m/5/SUA_CAMPANHA_AQUI_banner1.jpg" alt="New College" width="700" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border-top-style: none; border-left-style: none; border-right-style: none; border-bottom-style: none; display: block;" />
+                                            <a href="<?= $_POST["iUrlBanner1"] ?>&utm_source=salesforce&utm_medium=email&utm_campaign=<?php echo $_POST["iCampanha"]; ?>&utm_content=banner_principal" target="_blank">
+                                                <img src="https://image.news.lojastorra.com.br/lib/fe43157175640478751772/m/5/<?php echo $_POST["iCampanha"]; ?>_banner1.jpg" alt="New College" width="700" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border-top-style: none; border-left-style: none; border-right-style: none; border-bottom-style: none; display: block;" />
                                                 <!-- <img src="https://image.news.lojastorra.com.br/lib/fe43157175640478751772/m/4/torra_ofertas_relampago_0604_banner1.png" alt="New College" width="700" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border-top-style: none; border-left-style: none; border-right-style: none; border-bottom-style: none; display: block;"/> -->
                                             </a>
                                         </td>
@@ -379,7 +379,7 @@ if ($_POST["iURLS"]) {
                                     <tr>
                                         <td height="10" style="border-collapse: collapse" align="center">
                                             <p class="titulo" style="font-family: 'Open Sans', Arial, Helvetica, sans-serif;font-size: 18px;color: #171841;text-decoration: none; line-height: 20px">
-                                                Vem conferir as<b> melhores ofertas</b> <br>de <b>coleção</b> pra toda <b>família.</b>
+                                                <?= $_POST["iTxtTransicao"] ?>
                                             </p>
                                         </td>
                                     </tr>
@@ -433,7 +433,7 @@ if ($_POST["iURLS"]) {
                                                                         <table cellpadding="0" cellspacing="0">
                                                                             <tr>
                                                                                 <td>
-                                                                                    <a href="<?= $produtos[$i]["url_produto"] ?>?utm_source=salesforce&utm_medium=email&utm_campaign=SUA_CAMPANHA_AQUI&utm_content=<?= $produtos[$i]["nome_tag"] ?>" target="_blank">
+                                                                                    <a href="<?= $produtos[$i]["url_produto"] ?>?utm_source=salesforce&utm_medium=email&utm_campaign=<?php echo $_POST["iCampanha"]; ?>&utm_content=<?= $produtos[$i]["nome_tag"] ?>" target="_blank">
                                                                                         <img src="https://torratorra.vteximg.com.br/arquivos/ids/<?= $produtos[$i]["id"] ?>-290-365" alt="<?= $produtos[$i]["nome"] ?>" width="290" style="display:block;" />
                                                                                     </a>
                                                                                 </td>
@@ -475,7 +475,7 @@ if ($_POST["iURLS"]) {
                                                                                     </p>
                                                                                 </td>
                                                                                 <td width="38%" align="right">
-                                                                                    <a href="<?= $produtos[$i]["url_produto"] ?>?utm_source=salesforce&utm_medium=email&utm_campaign=SUA_CAMPANHA_AQUI&utm_content=<?= $produtos[$i]["nome_tag"] ?>" target="_blank" style="background-color: #37bc9b; color:#fff;font-family: 'Open Sans', Arial, Helvetica, sans-serif; font-size: 14px; font-weight: 600; text-decoration: none;line-height:20px;padding-bottom: 5px;padding-left: 12px;padding-right: 12px;padding-top: 5px;border-radius: 3px">COMPRAR</a>
+                                                                                    <a href="<?= $produtos[$i]["url_produto"] ?>?utm_source=salesforce&utm_medium=email&utm_campaign=<?php echo $_POST["iCampanha"]; ?>&utm_content=<?= $produtos[$i]["nome_tag"] ?>" target="_blank" style="background-color: #37bc9b; color:#fff;font-family: 'Open Sans', Arial, Helvetica, sans-serif; font-size: 14px; font-weight: 600; text-decoration: none;line-height:20px;padding-bottom: 5px;padding-left: 12px;padding-right: 12px;padding-top: 5px;border-radius: 3px">COMPRAR</a>
                                                                                 </td>
                                                                             </tr>
                                                                         </table>
@@ -550,8 +550,8 @@ if ($_POST["iURLS"]) {
                                 <!-- <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#fff">
                           <tr>
                            <td height="15" style="border-collapse: collapse">
-                                 <a href="https://www.lojastorra.com.br/busca?fq=H:1355&O=OrderByReleaseDateDESC&utm_source=salesforce&utm_medium=email&utm_campaign=SUA_CAMPANHA_AQUI&utm_content=banner_2" target="_blank">
-                                    <img src="https://image.news.lojastorra.com.br/lib/fe43157175640478751772/m/5/SUA_CAMPANHA_AQUI_banner2.jpg" alt="banner_2" width="700" style="padding-top: 15px;"/>
+                                 <a href="https://www.lojastorra.com.br/busca?fq=H:1355&O=OrderByReleaseDateDESC&utm_source=salesforce&utm_medium=email&utm_campaign=<?php echo $_POST["iCampanha"]; ?>&utm_content=banner_2" target="_blank">
+                                    <img src="https://image.news.lojastorra.com.br/lib/fe43157175640478751772/m/5/<?php echo $_POST["iCampanha"]; ?>_banner2.jpg" alt="banner_2" width="700" style="padding-top: 15px;"/>
                                  </a>
                               </td>
                           </tr>
@@ -559,7 +559,7 @@ if ($_POST["iURLS"]) {
                                 <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#fff">
                                     <tr>
                                         <td height="15" style="border-collapse: collapse">
-                                            <a href="https://www.lojastorra.com.br?utm_source=salesforce&utm_medium=email&utm_campaign=SUA_CAMPANHA_AQUI&utm_content=clique_e_retire" target="_blank">
+                                            <a href="https://www.lojastorra.com.br?utm_source=salesforce&utm_medium=email&utm_campaign=<?php echo $_POST["iCampanha"]; ?>&utm_content=clique_e_retire" target="_blank">
                                                 <img src="https://image.news.lojastorra.com.br/lib/fe43157175640478751772/m/5/banner_cliqe_retire_torra_23052022_v2.jpg" alt="Clique e Retire" width="700" style="padding-top: 15px;" />
                                             </a>
                                         </td>
@@ -605,7 +605,7 @@ if ($_POST["iURLS"]) {
                                 <table id="preheader" width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#171841">
                                     <tr>
                                         <td align="center" valign="middle" width="22%" height="" style="border-collapse: collapse">
-                                            <a href="https://www.lojastorra.com.br?utm_source=salesforce&utm_medium=email&utm_campaign=SUA_CAMPANHA_AQUI&utm_content=separador" target="_blank" style="font-family: 'Open Sans', Arial, Helvetica, sans-serif;font-size: 11px;color: #666"><img src="https://torratorra.vteximg.com.br/arquivos/ids/600353" alt="SEPARADOR" border="0" style="display: block" /></a>
+                                            <a href="https://www.lojastorra.com.br?utm_source=salesforce&utm_medium=email&utm_campaign=<?php echo $_POST["iCampanha"]; ?>&utm_content=separador" target="_blank" style="font-family: 'Open Sans', Arial, Helvetica, sans-serif;font-size: 11px;color: #666"><img src="https://torratorra.vteximg.com.br/arquivos/ids/600353" alt="SEPARADOR" border="0" style="display: block" /></a>
                                         </td>
                                     </tr>
                                 </table>
@@ -618,7 +618,7 @@ if ($_POST["iURLS"]) {
                                 <table id="preheader" width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#0f1140">
                                     <tr>
                                         <td align="center" valign="middle" width="22%" height="" style="border-collapse: collapse">
-                                            <a href="https://www.lojastorra.com.br?utm_source=salesforce&utm_medium=email&utm_campaign=SUA_CAMPANHA_AQUI&utm_content=logo_torra_rodape" target="_blank" style="font-family: 'Open Sans', Arial, Helvetica, sans-serif;font-size: 11px;color: #666"><img src="https://torratorra.vteximg.com.br/arquivos/ids/600349" alt="TORRA" border="0" style="display: block" width="89" /></a>
+                                            <a href="https://www.lojastorra.com.br?utm_source=salesforce&utm_medium=email&utm_campaign=<?php echo $_POST["iCampanha"]; ?>&utm_content=logo_torra_rodape" target="_blank" style="font-family: 'Open Sans', Arial, Helvetica, sans-serif;font-size: 11px;color: #666"><img src="https://torratorra.vteximg.com.br/arquivos/ids/600349" alt="TORRA" border="0" style="display: block" width="89" /></a>
                                         </td>
                                     </tr>
                                 </table>
@@ -680,12 +680,12 @@ if ($_POST["iURLS"]) {
                                                                     <table id="preheader" width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#0f1140">
                                                                         <tr class="ond-encont">
                                                                             <td align="left" width="35" style="border-collapse: collapse">
-                                                                                <a href="https://www.lojastorra.com.br/encontre-uma-loja?utm_source=salesforce&utm_medium=email&utm_campaign=SUA_CAMPANHA_AQUI&utm_content=encontre_uma_loja" target="_blank" style="text-decoration: none;">
+                                                                                <a href="https://www.lojastorra.com.br/encontre-uma-loja?utm_source=salesforce&utm_medium=email&utm_campaign=<?php echo $_POST["iCampanha"]; ?>&utm_content=encontre_uma_loja" target="_blank" style="text-decoration: none;">
                                                                                     <img src="https://torratorra.vteximg.com.br/arquivos/ids/600348" alt="Localização Lojas" width="25" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border-top-style: none; border-left-style: none; border-right-style: none; border-bottom-style: none; display: block;" />
                                                                                 </a>
                                                                             </td>
                                                                             <td align="left" style="border-collapse: collapse">
-                                                                                <a href="https://www.lojastorra.com.br/encontre-uma-loja?utm_source=salesforce&utm_medium=email&utm_campaign=SUA_CAMPANHA_AQUI&utm_content=encontre_uma_loja" target="_blank" style="text-decoration: none;">
+                                                                                <a href="https://www.lojastorra.com.br/encontre-uma-loja?utm_source=salesforce&utm_medium=email&utm_campaign=<?php echo $_POST["iCampanha"]; ?>&utm_content=encontre_uma_loja" target="_blank" style="text-decoration: none;">
                                                                                     <p style="margin: 0.6em 0;font-family: 'Open Sans', Arial, Helvetica, sans-serif;font-size: 16px;color: #ff4e00; text-align: left;line-height: 1em;font-weight: bold" class="font-m">ENCONTRE UMA LOJA</p>
                                                                                     <p id="hide" style="margin: 0.6em 0;font-family: 'Open Sans', Arial, Helvetica, sans-serif;font-size: 14px;color: #fff; text-align: left;line-height: 1em;">Unidades próximas de você</p>
                                                                                 </a>
@@ -868,8 +868,7 @@ if ($_POST["iURLS"]) {
 
 
 <?
-}
-else{
+} else {
     //die(var_dump("não entrou"));  
 }
 
