@@ -18,18 +18,34 @@
             <div class="form-holder">
                 <div class="form-content">
                     <div class="form-items">
-                        <h3>Register Today</h3>
-                        <p>Fill in the data below.</p>
-                        <form class="requires-validation" novalidate>
+                        <h3>Sistema Palópoli de Emails</h3>
+                        <p>Preencha os dados para criar o email</p>
+                        <form class="requires-validation" novalidate method="post" action="valida_modelo.php">
 
                             <div class="col-md-12">
                                 <input class="form-control" type="text" name="iCampanha" placeholder="Nome da Campanha">
-
                             </div>
-                            
+                            <div class="col-md-12">
+                                <input class="form-control" type="text" name="iUrlBanner1" placeholder="Link do banner principal">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="iTxtTransicao">Texto de Transicao</label>
+                                <textarea class="form-control" id="iTxtTransicao" rows="12" name="iTxtTransicao"></textarea>
+                            </div>
+
                             <div class="form-group">
                                 <label for="iURLS">URLs</label>
                                 <textarea class="form-control" id="iURLS" rows="12" name="iURLS"></textarea>
+                            </div>
+
+
+                            <div class="form-group">
+                                <select class="form-select">
+                                    <option selected value="1">Modelo Padrão</option>
+                                    <option value="2">Modelo Rodapé 3</option>                                    
+                                </select>
+
                             </div>
 
 
