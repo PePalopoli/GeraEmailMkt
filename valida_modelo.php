@@ -24,8 +24,7 @@ if($_POST)
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
     // die(var_dump($url));
     $response = curl_exec($ch);
-    die(var_dump($response));
+    echo $response;
 }
-
-
 ?>
+
