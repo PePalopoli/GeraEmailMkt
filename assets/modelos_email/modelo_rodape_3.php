@@ -7,6 +7,7 @@ $exibir_form = true;
 include_once "functions.php";
 if ($_POST["iURLS"]) {
     //die(var_dump("entrou"));
+    $today = date("d/m/Y");
 
     $urls_lista = explode(";", $_POST["iURLS"]);
     // die(var_dump($urls_lista));
@@ -708,7 +709,7 @@ if ($_POST["iURLS"]) {
                                                             <table id="preheader" width="100%" border="0" cellpadding="0" cellspacing="0">
                                                                 <tr>
                                                                     <td valign="middle" align="center" width="100%" height="20" style="border-collapse: collapse">
-                                                                        <p style="margin: 0.6em 0;font-family: 'Open Sans', Arial, Helvetica, sans-serif;font-size: 9px;color: #000; text-align: justify;font-weight: 700;line-height: 10px;">*Todas as condições do Cartão Torra estão sujeitas a aprovação de crédito. Em todas as compras realizadas com o Cartão Torra, independentemente do nº de parcelas, haverá incidência, em cada parcela, do Serviço de Processamento de Transações. Os planos de pagamento para compras realizadas nas lojas físicas são de 1 a 5 vezes sem juros e de 8 a 9 vezes fixas com juros, os planos com juros poderão ter incidência de IOF. Os planos de pagamento para as compras realizadas na loja virtual (www.lojastorra.com.br) ou App Torra são de até 10 vezes sem juros. Verifique o seu limite disponível e as condições gerais em uma de nossas lojas. Ofertas válidas até 29/06/2022 para compras realizadas no site ou app Torra ou enquanto durarem os estoques promocionais. Todas as condições estão sujeitas a alteração sem aviso prévio.</p>
+                                                                        <p style="margin: 0.6em 0;font-family: 'Open Sans', Arial, Helvetica, sans-serif;font-size: 9px;color: #000; text-align: justify;font-weight: 700;line-height: 10px;">*Todas as condições do Cartão Torra estão sujeitas a aprovação de crédito. Em todas as compras realizadas com o Cartão Torra, independentemente do nº de parcelas, haverá incidência, em cada parcela, do Serviço de Processamento de Transações. Os planos de pagamento para compras realizadas nas lojas físicas são de 1 a 5 vezes sem juros e de 8 a 9 vezes fixas com juros, os planos com juros poderão ter incidência de IOF. Os planos de pagamento para as compras realizadas na loja virtual (www.lojastorra.com.br) ou App Torra são de até 10 vezes sem juros. Verifique o seu limite disponível e as condições gerais em uma de nossas lojas. Ofertas válidas até <?php echo $today; ?> para compras realizadas no site ou app Torra ou enquanto durarem os estoques promocionais. Todas as condições estão sujeitas a alteração sem aviso prévio.</p>
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
