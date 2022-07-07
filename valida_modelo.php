@@ -11,6 +11,10 @@ if($_POST)
         case '2':
             $tipo_modelo = "modelo_rodape_3.php";
             break;
+
+        case '3':
+            $tipo_modelo = "modelo_rodape_3_sem_botao.php";
+            break;
         
         default:
             $tipo_modelo = "modelo_1_padrao.php";

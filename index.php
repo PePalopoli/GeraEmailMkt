@@ -47,6 +47,7 @@
                                         <select class="form-select" name="iModelo" id="iModelo">
                                             <option selected value="1">Modelo Padrão</option>
                                             <option value="2">Modelo Rodapé 3</option>
+                                            <option value="3">Modelo Rodapé 3 sem botão</option>
                                         </select>
 
                                     </div>
